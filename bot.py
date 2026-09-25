@@ -9,8 +9,7 @@ from aiogram.utils.keyboard import ReplyKeyboardBuilder
 logging.basicConfig(level=logging.INFO)
 
 # Получаем токен из переменной окружения
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-
+BOT_TOKEN="8836429023:AAGxe2evuMdPhb_87GTMiCM3MWoogkXAAqc"
 if not BOT_TOKEN:
     raise ValueError("Ошибка: Токен бота не найден. Укажите BOT_TOKEN в переменных окружения.")
 
